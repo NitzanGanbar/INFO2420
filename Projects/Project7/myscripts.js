@@ -24,7 +24,7 @@ var titleArray = new Array(
     "Relaxing Spa Lobby"
 );
 
-var imgPath = "Images/Fullsize/";
+var imgPath = "Images/fullsize/";
 
 function swapImage(imgID) {
     var theImage = document.getElementById("theImage");
