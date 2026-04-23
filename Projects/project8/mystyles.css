@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a2540;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #ffffff;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 900px;
+    height: 220px;
+    background-color: #102f4e;
+}
+
+#logoarea {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#bannerarea {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#banner {
+    width: 430px;
+    height: 126px;
+}
+
+nav {
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav a {
+    display: block;
+    width: 180px;
+    margin: 8px auto;
+    padding: 10px;
+    background-color: #d4af37;
+    color: #0a2540;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #0a2540;
+}
+
+section {
+    width: 900px;
+	margin: 0 auto;
+    background-image: url('Images/2colback.png');
+    background-repeat: repeat-y;
+	background-position: center;
+    overflow: hidden;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(10, 37, 64, 0.88);
+}
+
+article h1 {
+    color: #d4af37;
+    text-align: center;
+    margin-top: 0;
+}
+
+article h2 {
+    color: #d4af37;
+    margin-top: 35px;
+    text-align: center;
+}
+
+article h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+article p {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#thumbs, #image {
+    width: 760px;
+    text-align: center;
+    margin: 15px auto;
+    color: #000000;
+    background-color: #f4f1ea;
+    padding: 10px;
+    border: 2px solid #d4af37;
+}
+
+#thumbs img {
+    border: 1px solid #000000;
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#image {
+    height: 420px;
+}
+
+#image img {
+    width: 400px;
+    height: 267px;
+    object-fit: cover;
+    margin-top: 10px;
+    border: 1px solid #000000;
+}
+
+.instructions {
+    font-style: italic;
+}
+
+#tribute {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#tributeimg {
+    float: left;
+    width: 220px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #d4af37;
+}
+
+footer {
+    width: 900px;
+    background-color: #102f4e;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+#validator {
+    text-align: center;
+    margin-top: 15px;
+}
